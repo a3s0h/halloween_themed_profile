@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contain{
+    background-image: url('pump2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 7px solid;
+    width: 100vw;
+    height: 780px;
+    background-color: rgb(0, 0, 0);
+}
+.mainbox{
+    background-image: url('pump3.jpg');
+    background-repeat: no-repeat;
+    /* opacity: 0.5; */
+    background-size: cover;
+    background-position: center;
+    padding: 0px 50px;
+width: 600px;
+height: 85vh;
+margin-left: 500px;
+margin-top: 30px;
+/* background-color: rgb(33 91 39); */
+box-shadow: 0px 20px 30px 15px rgb(255, 0, 0);
+}
+
+
+.profile{
+   box-shadow:  0 0 100px rgb(237, 7, 7);
+
+    width: 170px;
+height: 170px;
+border-radius: 95px;
+/* margin-left: 670px; */
+margin-left: 180px;
+margin-top: 15px;
+border: 5px solid rgb(199, 47, 47);
+}
+section h1 ,h2{
+text-align: center;
+font-family: 'Nosifer', cursive;
+}
+section h2{
+
+font-size: 30px;
+text-shadow: 5px 5px 15px rgb(255, 0, 0);
+color: rgb(255 255 255);
+}
+section  h1{
+border-top: 4px dotted rgb(255 255 255);
+margin-top: 8px;
+color: rgb(255 255 255);
+margin-bottom: 20px;
+text-shadow: 5px 5px 15px rgb(255, 0, 0);
+}
+section p{
+font-family: 'Creepster', cursive;
+text-align: center;
+padding: 0px 30px;
+font-size: 20px;
+word-spacing: 9px;
+color: white;
+text-shadow: 5px 5px 15px rgb(255, 0, 0);
+}
+footer{
+    margin-top: 20px;
+    text-align: end;
+    color: white;
+    text-shadow: 5px 5px 15px rgb(255, 0, 0);
+}
+footer a:visited,a:active{
+    color: white;
+}
+footer a:hover{
+    background-color: rgba(255, 0, 0,0.5);
+    color: rgb(4, 4, 4);
+    animation: hover 3s ease-in-out infinite;
+    text-decoration: none;
+    animation-fill-mode:initial;
+}
+@keyframes hover{
+    0%{
+        font-size: 40px;
+        
+    }
+    10%{font-size: italic;}
+    20%{font-style: normal;}
+    30%{
+        font-style: italic;
+    }
+    40%{
+        font-size: 20px;
+        font-style: normal;
+    }
+    50%{font-style: italic;}
+    60%{font-style: normal;}
+    70%{
+        font-size: 40px;
+        font-style: italic;
+    }
+    80%{font-style: normal;}
+    90%{font-style: italic;}
+    100%{
+        font-size: 20px;
+        font-style: normal;
+    }
+}
